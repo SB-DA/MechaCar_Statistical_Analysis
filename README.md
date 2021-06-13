@@ -57,10 +57,12 @@ In this challenge, we helped Jeremy and the data analytics team do the following
 - Because the p-value is below the 0.05 percent significance level, we can reject the null hypothesis and conclude that the PSI across Lot 3 is statistically different.
 
 
+## Study Design: MechaCar vs Competition
+- MechaCar is being designed to match or surpass the performance of general marketplace vehicles. This goal can best be achieved by improving factors like fuel efficiency, pricing, safety features of the MechaCar. In addition to the six variables from this analysis, data must be collected for all MechaCar manufacturing designs.
 
+- MechaCar's performance metrics are statistically similar to all vehicles from other manufacturers, so here, it would be the null hypothesis that each metric is the same.
 
+- ANOVA would be used in this case. A continuous numerical variable is compared across several groups using this test.
+We would thus compare the means of each metric across manufacturers in this analysis.
 
-
-
-
-
+- To conduct the test, we would require MechaCar and its competitors' data in one dataframe, with each metric grouped into one column.
