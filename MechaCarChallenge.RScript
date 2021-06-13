@@ -1,5 +1,27 @@
 library(tidyverse) #import tidyverse package
 
+MechaCar <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F) #import data
+
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar) #generate multiple linear regression model
+
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar)) #generate summary statistics
 
 
 
+SuspensionCoil <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F) #import suspension coil data
+
+total_summary <- SuspensionCoil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create total summary table
+
+lot_summary <- SuspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create lot summary table
+
+?t.test()
+t.test(lot_summary$Mean, mu=1500) 
+
+lot1_summary <- subset(SuspensionCoil,Manufacturing_Lot=='Lot1')
+t.test(lot1_summary$PSI, mu=1500)
+
+lot2_summary <- subset(SuspensionCoil, Manufacturing_Lot == 'Lot2')
+t.test(lot2_summary$PSI, mu=1500)
+
+lot3_summary <- subset(SuspensionCoil, Manufacturing_Lot == 'Lot3')
+t.test(lot3_summary$PSI, mu=1500)
