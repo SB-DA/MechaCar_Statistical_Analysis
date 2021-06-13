@@ -18,7 +18,8 @@ In this challenge, we helped Jeremy and the data analytics team do the following
 
 - By looking at the p-value, which is less than 0.05, we can tell that our slope is not zero.
 
-- A R-squared value of 0.71 means that our model will accurately predict mpg values in approximately 71% of the instances. The MechaCar prototypes' MPG vary for various reasons that are not accounted for in the dataset.
+- As measured by the R-square of 0.71, 71% of mpg variations can be attributed to variations in the vehicle length, vehicle weight, the spoiler angle, the drivetrain, and the ground clearance. This linear model is capable of predicting the mpg of MechaCar prototypes fairly well.
+
 
 ## Summary Statistics on Suspension Coils
 
