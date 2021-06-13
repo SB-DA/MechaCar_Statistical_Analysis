@@ -5,6 +5,12 @@
 ## Linear Regression to Predict MPG
 ![image](https://user-images.githubusercontent.com/78935551/121794826-6eab6480-cbd9-11eb-92fb-52e5a9d52755.png)
 
+- In this study, the spoiler_angle, vehicle weight, and AWD all contributed to non-random variances. In terms of random variance, two variables are most significant: ground_clearance and vehicle_length.
+- 
+- By looking at the p-value, which is less than 0.05, we can tell that our slope is not zero.
+- 
+- A R-squared value of 71% means that our model will accurately predict mpg values in approximately 71% of the instances. The MechaCar prototypes' MPG vary for various reasons that are not accounted for in the dataset.
+
 
 ## Summary Statistics on Suspension Coils
 
