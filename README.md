@@ -20,6 +20,8 @@
 ### Lot Summary 
 ![image](https://user-images.githubusercontent.com/78935551/121795111-7f5cda00-cbdb-11eb-9718-b110740cf848.png)
 
+- MechaCar's suspension coils are designed to have a variance of no more than 100 pounds per square inch.The design specs are respected across all manufacturing lots with a global variance of 62.3 psi.Lot 1 and Lot 2 are in specs with respectively a variance of 0.98 and 7.5 psi. With a variance of 170.3 psi, Lot 3 is out of specs.
+
 #### T-Tests on Suspension Coils
 
 ### All Lot Summary
