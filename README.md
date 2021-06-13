@@ -38,9 +38,15 @@ In this challenge, we helped Jeremy and the data analytics team do the following
 ### All Lot Summary
 ![image](https://user-images.githubusercontent.com/78935551/121795525-a9180000-cbdf-11eb-832c-c3ee97ee0890.png)
 
+- Using the common significance level of 0.05 percent, our p-value of 0.45 is above the significance level. Due to the lack of sufficient evidence to reject the null hypothesis, we can conclude that the PSI across all manufacturing lots is statistically similar to the population mean.
+
 
 ### Lot 1
 ![image](https://user-images.githubusercontent.com/78935551/121795472-4a528680-cbdf-11eb-965e-3a038fe6e0c0.png)
+
+- We reject the null hypothesis here since p-value falls below the significance threshold of 0.05 percent. The PSI for Lot 1 therefore differs from that of the population.
+
+
 
 ### Lot 2
 ![image](https://user-images.githubusercontent.com/78935551/121795539-c64cce80-cbdf-11eb-9f11-ee588c471952.png)
